@@ -8,7 +8,7 @@ import '@testing-library/jest-dom/extend-expect'
 import {setupServer} from 'msw/node'
 import { getPage, initTestHelpers } from 'next-page-tester';
 import { handlers } from '../mock/handlers';
-import 'setimmediate'
+// import 'setimmediate'
 
 process.env.NEXT_PUBLIC_HASURA_URL = 'https://immortal-bluejay-83.hasura.app/v1/graphql'
 
